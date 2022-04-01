@@ -1,0 +1,92 @@
+
+#sub_title{
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #04a1d6;
+  padding: 10px 0;
+  color:#fff;
+}
+.capture{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #b0d3df;
+    padding: 10px 0;
+}
+#snap_caution{
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+}
+
+#snap_caution p{
+  margin-top: 10px;
+}
+#snap_caution img{
+  width: 70%;
+}
+
+.snap_btn{
+  text-align: center;
+}
+.snap_btn label img {
+  width:auto !important;
+  height: 25px;
+  position: relative;
+  top: 9px;
+}
+
+#fileInput{
+  display: none;
+}
+#re_fileInput{
+  display: none;
+}
+#error_fileInput{
+  display: none;
+}
+
+#snap_result{
+  display: none;
+  width: 100%;
+}
+#res_input{
+  width: 20%;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#image_area{
+  width: 100%;
+  padding:1%;
+  background-color: #000;
+  display: block;
+}
+#image_area p{
+  position: relative;
+}
+#image_area p::before{
+  display: block;
+  content: '';
+  padding-top: 100%;
+}
+#image_area img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#cautionModal{
+  background-color: #000000b0;
+}
+.modal_check{
+  margin-bottom: 10px;
+}
+.modal_check input{
+  margin-right: 5px;
+}

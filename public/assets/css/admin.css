@@ -1,0 +1,272 @@
+@charset "UTF-8";
+#re_select input[type="text"] {
+  width:auto !important;
+  display: initial !important;
+  margin:0 0.5rem;
+}
+#re_select dl {
+  width:100%;
+  display: flex;
+}
+.fz12 {
+  font-size: 12px !important;
+}
+#re_select dt {
+  width:10%;
+  font-size: 12px;
+  color:#000;
+  font-weight: normal;
+  padding-top: 0.5rem;
+}
+#re_select dd {
+  width:90%;
+  display: flex;
+  justify-content: left;
+  color:#000;
+}
+#re_select label {
+  font-size: 12px;
+  color:#000;
+  padding:0.5rem 1rem;
+  border:1px solid #999;
+  margin-right: 0.5rem;
+}
+#re_select .custom-checkbox .custom-control-label::before,
+#re_select .custom-checkbox .custom-control-label::after {
+  content:none !important;
+}
+#re_select .custom-checkbox {
+  padding:0 !important;
+  cursor: pointer;
+}
+#re_select .custom-checkbox label {
+  cursor: pointer;
+}
+#re_select .custom-checkbox .active {
+  background:#1b55e2;
+  color:#fff;
+  border:1px solid #1b55e2;
+}
+.receipt_body a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.meken_submit {
+  font-weight: normal !important;
+}
+input[name="date"] {
+  width:150px;
+}
+input[name="time"] {
+  width:50px;
+}
+input[name="value"] {
+  width:100px;
+}
+input[name="point"] {
+  width:50px;
+}
+.simple {
+  border:none;
+  -webkit-appearance: none;
+  border-bottom: 1px solid #ccc;
+}
+.img_wrap {
+  position: relative;
+}
+.duplicate_text {
+  position: absolute;
+  background:#FC0007;
+  color:#fff;
+  padding:1rem;
+  right: 0;
+  top:0;
+}
+.value_table input[name="mk_value"] {
+  width:90px;
+  display: initial;
+  font-size: 13px;
+}
+.date_table input {
+  width:auto !important;
+  display: initial;
+}
+.mk_table tr th:nth-child(1),
+.mk_table tr td:nth-child(1) {
+  width:33%;
+}
+.value_table tr th:nth-child(2) {
+  width:33%;
+}
+.apply_admin_status {
+  position: relative;
+  width:200px;
+}
+.apply_admin_status .flex {
+  background:#f9f9f9;
+  text-align: center;
+  /* position: absolute;
+  width:100%;
+  height: 100%; */
+}
+.status_content {
+  padding:0.75rem !important;
+  cursor: pointer;
+}
+.apply_admin_status .status_content.active {
+  background:#1b55e2;
+  color:#fff;
+}
+#csv_enddate,
+#csv_startdate {
+  display: initial;
+  width:250px;
+}
+.select_form .flex {
+  justify-content: left;
+}
+.w400 {
+  max-width: 400px !important;
+  width:400px;
+}
+.select_form .datepicker {
+  max-width: 140px !important;
+}
+.meken_bloc dl {
+  width:100%;
+  float: left;
+}
+.meken_bloc dt {
+  width: 25%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: normal;
+  float: left;
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  color:#000;
+}
+.meken_bloc {
+  width:100%;
+  border:1px solid #999;
+  padding:1rem;
+  margin-bottom: 1rem;
+}
+.meken_bloc dd {
+  width: 73%;
+  padding-top: 0.5rem;
+  vertical-align: middle;
+  float: right;
+  color:#000;
+}
+.yellow {
+  background:#FFFF09;
+}
+.navy {
+  background: #3466B1;
+  color: #fff !important;
+}
+.lightgreen {
+  background:#73CC05;
+}
+.green {
+  background:#346F45;
+  color:#fff !important;
+}
+.lightnavy {
+  background:#A5BFDE;
+}
+.blue {
+  background:#1DCDE9;
+}
+.lightblue {
+  background:#99D3E8;
+}
+.img_wrap img {
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 100%;
+}
+center .confirm_product {
+  background: #f1f1f1;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #ccc !important;
+}
+center .confirm_product.active {
+  color:#fff !important;
+  background:#28a745!important;
+}
+.meken_btns button {
+  width:20%;
+  padding:1rem;
+}
+body header {
+  width:auto;
+}
+.value_td input {
+  width:90px;
+  display: initial;
+  font-size: 13px;
+}
+#receipt_detail .height_base {
+  height: calc(100vh - 189px);
+}
+#receipt_detail .height100 {
+  height:100%;
+}
+#receipt_detail .img_wrap {
+  text-align: center;
+}
+.form-control {
+  padding: 0.5rem !important;
+}
+.absolute_img {
+  position: absolute;
+  left:0;
+  top:0;
+}
+.absolute_img a {
+  display: inline-block;
+  padding:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
